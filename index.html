@@ -1,0 +1,210 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="fonts/fa/css/font-awesome.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
+	<script type="text/javascript" src="js/app.js"></script>
+
+	<title>Routes</title>
+	<style>
+		body{
+			background-image: url('images/bg4.jpg');
+			background-size: cover;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			margin-top: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			
+			<div class="logo">	
+				<img src="images/icon.png" class="logo-img">
+			</div>
+			<div class="menu">		
+				<ul>
+					<li>
+						<i class="fa fa-compass"></i>
+						<p class="main-text">Explore</p>
+					</li>
+					<li>
+						<i class="fa fa-list-ul"></i>
+						<p class="main-text">Categories</p>
+					</li>
+					<li>
+						<i class="fa fa-comment"></i>
+						<p class="main-text">Travel Blog</p>
+					</li>
+					<li>
+						<i class="fa fa-user-o"></i>
+						<p class="main-text">Sign in</p>
+					</li>
+				</ul>
+			</div>
+			<div class="login">
+				<i class="fa fa-bell-o"></i>
+				<div class="login-account">
+					<img src="images/avatar.jpg">
+					<p>Alinur Sabit</p>
+				</div>
+				<i class="fa fa-power-off"></i>
+			</div>	
+		</div>
+
+		<div class="main">
+			<div class="section1">
+				<div class="search">
+					<div class="search-o">
+						<div class="location">
+							<i class="fa fa-compass"></i>
+							<p class="location-name">Italy, Como</p>
+							<i class="fa fa-camera"></i>
+							<i class="fa fa-th"></i>
+						</div>
+					</div>
+					<div class="search-button">
+						<i class="fa fa-search"></i>
+					</div>
+				</div>
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d317715.54331934283!2d-0.101618!3d51.528642!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e1!3m2!1sen!2s!4v1496597723875" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<div class="networks-icon">
+						<div id="instagram" class="icon-circle">
+							<i class="fa fa-instagram"></i>
+						</div>
+						<div id="twitter" class="icon-circle">
+							<i class="fa fa-twitter"></i>
+						</div>
+						<div id="facebook" class="icon-circle">
+							<i class="fa fa-facebook"></i>
+						</div>
+						<div id="pinterest" class="icon-circle">
+							<i class="fa fa-pinterest"></i>
+						</div>
+						<div id="google" class="icon-circle">
+							<i class="fa fa-google-plus"></i>
+						</div>
+						<div id="vk" class="icon-circle">
+							<i class="fa fa-vk"></i>	
+						</div>
+					</div>
+					<div class="likes">
+						<i class="fa fa-clock-o"></i>
+						<p>1h 10min</p>
+						<i class="fa fa-road"></i>
+						<p>3.5 km</p>
+						<i class="fa fa-heart-o"></i>
+						<p>32</p>
+					</div>
+					<div class="map-photos">
+						<img class="map-photos-img" src="images/London1.jpg">
+						<img class="map-photos-img" src="images/London2.jpg">
+						<img class="map-photos-img" src="images/London3.jpg">
+						<img class="map-photos-img" src="images/London4.jpg">
+						<p class="map-photos-p">Routes Near</p>
+					</div>
+				</div>
+			</div>
+			<div class="section2">
+				<div class="profile">
+					<div class="profile-avatar">
+						<img src="images/avatar.jpg">
+						<div class="online"></div>
+					</div>
+					<div class="profile-info">
+						<p>Alinur Sabit</p>
+						<div class="profile-travel">
+							<p>Traveler</p>
+							<div class="profile-travel-number">
+								<i class="fa fa-map-marker"></i>
+								<p>65</p>
+							</div>
+						</div>
+					</div>
+					<div class="profile-buttons">
+						<button class="btn-message"><i class="fa fa-envelope"></i>MESSAGE ME</button>
+						<button class="btn-follow">FOLLOW</button>
+						<div class="modal">
+							<h1>Message</h1>
+							<input type="text" id="1" placeholder="Full name">
+							<input type="email" id="2" placeholder="E-mail">
+							<textarea type="textarea" id="3" placeholder="Message..."></textarea>
+							<button class="message-submit" onclick="ClearFields()"><i class="fa fa-paper-plane"></i>SEND</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="posts">
+
+					<div class="photo">
+						<div class="photo-pic">
+							<img src="images/photo.jpeg">
+						</div>
+						<div class="photo-info">
+							<i class="fa fa-pencil"></i>
+							<p class="photo-info-place">Complete Como Walk</p>
+							<p class="photo-info-place">/</p>
+							<div class="photo-info-stars">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>	
+								<i class="fa fa-star-o"></i>
+							</div>
+							<p class="photo-info-date">October, 2015</p>
+						</div>
+					</div>
+					
+					<div class="comment">
+						<div class="comment-list">
+							<img src="images/list.png">
+						</div>
+						<div class="comment-block">	
+							<div class="comment-form">
+								<img src="images/tri.png" class="tri">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div class="comment-form">
+								<img src="images/tri.png" class="tri">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer">
+						<a href="" class="link">ABOUT US</a>
+						<a href="" class="link">SUPPORT</a>
+						<a href="" class="link">BLOG</a>
+						<a href="" class="link">PRESS</a>
+						<a href="" class="link">API</a>
+						<a href="" class="link">JOBS</a>
+						<a href="" class="link">PRIVACY</a>
+						<a href="" class="link">TERMS</a>
+						<a href="" class="link">DIRECTORY</a>
+						<a href="" class="link">LANGUAGE</a>
+						<p class="lisence"><i class="fa fa-copyright"></i>2017 ROUTES.TIPS</p>
+					</div>
+
+				</div>
+			</div>			
+			
+			
+		</div>
+	</div>
+
+	
+</body>
+</html>
